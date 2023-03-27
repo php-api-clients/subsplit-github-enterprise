@@ -1,0 +1,28 @@
+spec: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions-next/ghes-3.5/ghes-3.5.yaml
+namespace: ApiClients\Client\GitHubEnterprise
+destination:
+  root: ../
+  source: clients
+schemas:
+  allowDuplication: true
+  useAliasesForDuplication: true
+voter:
+  listOperation:
+    - ApiClients\Tools\OpenApiClientGenerator\Voter\ListOperation\PageAndPerPageInQuery
+  streamOperation:
+    - ApiClients\Tools\OpenApiClientGenerator\Voter\StreamOperation\DownloadInOperationId
+subSplit:
+  templatesDir: ../templates
+  branch: v0.2.3.5.x
+  subSplitConfiguration: etc/config.subsplit-publish.json
+  fullName: GitHub Enterprise (v3.5) {{ section }}
+  vendor: api-clients
+  sectionGenerator:
+    - ApiClients\Tools\OpenApiClientGenerator\SectionGenerator\OperationIdSlash
+    - ApiClients\Tools\OpenApiClientGenerator\SectionGenerator\WebHooks
+  rootPackage:
+    name: github-enterprise
+    repository: git@github.com:php-api-clients/github.git
+  sectionPackage:
+    name: github-enterprise-{{ section }}
+    repository: git@github.com:php-api-clients/github-{{ section }}.git
