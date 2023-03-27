@@ -1,0 +1,196 @@
+{
+    "sub-splits": [
+        {
+            "name": "github-enterprise",
+            "directory": "github-enterprise",
+            "target": "git@github.com:php-api-clients\/github-enterprise.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-common",
+            "directory": "github-enterprise-common",
+            "target": "git@github.com:php-api-clients\/github-enterprise-common.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-meta",
+            "directory": "github-enterprise-meta",
+            "target": "git@github.com:php-api-clients\/github-enterprise-meta.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-enterprise-admin",
+            "directory": "github-enterprise-enterprise-admin",
+            "target": "git@github.com:php-api-clients\/github-enterprise-enterprise-admin.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-apps",
+            "directory": "github-enterprise-apps",
+            "target": "git@github.com:php-api-clients\/github-enterprise-apps.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-oauth-authorizations",
+            "directory": "github-enterprise-oauth-authorizations",
+            "target": "git@github.com:php-api-clients\/github-enterprise-oauth-authorizations.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-codes-of-conduct",
+            "directory": "github-enterprise-codes-of-conduct",
+            "target": "git@github.com:php-api-clients\/github-enterprise-codes-of-conduct.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-emojis",
+            "directory": "github-enterprise-emojis",
+            "target": "git@github.com:php-api-clients\/github-enterprise-emojis.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-actions",
+            "directory": "github-enterprise-actions",
+            "target": "git@github.com:php-api-clients\/github-enterprise-actions.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-secret-scanning",
+            "directory": "github-enterprise-secret-scanning",
+            "target": "git@github.com:php-api-clients\/github-enterprise-secret-scanning.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-billing",
+            "directory": "github-enterprise-billing",
+            "target": "git@github.com:php-api-clients\/github-enterprise-billing.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-activity",
+            "directory": "github-enterprise-activity",
+            "target": "git@github.com:php-api-clients\/github-enterprise-activity.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-gists",
+            "directory": "github-enterprise-gists",
+            "target": "git@github.com:php-api-clients\/github-enterprise-gists.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-gitignore",
+            "directory": "github-enterprise-gitignore",
+            "target": "git@github.com:php-api-clients\/github-enterprise-gitignore.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-issues",
+            "directory": "github-enterprise-issues",
+            "target": "git@github.com:php-api-clients\/github-enterprise-issues.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-licenses",
+            "directory": "github-enterprise-licenses",
+            "target": "git@github.com:php-api-clients\/github-enterprise-licenses.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-markdown",
+            "directory": "github-enterprise-markdown",
+            "target": "git@github.com:php-api-clients\/github-enterprise-markdown.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-orgs",
+            "directory": "github-enterprise-orgs",
+            "target": "git@github.com:php-api-clients\/github-enterprise-orgs.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-code-scanning",
+            "directory": "github-enterprise-code-scanning",
+            "target": "git@github.com:php-api-clients\/github-enterprise-code-scanning.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-dependabot",
+            "directory": "github-enterprise-dependabot",
+            "target": "git@github.com:php-api-clients\/github-enterprise-dependabot.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-teams",
+            "directory": "github-enterprise-teams",
+            "target": "git@github.com:php-api-clients\/github-enterprise-teams.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-migrations",
+            "directory": "github-enterprise-migrations",
+            "target": "git@github.com:php-api-clients\/github-enterprise-migrations.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-projects",
+            "directory": "github-enterprise-projects",
+            "target": "git@github.com:php-api-clients\/github-enterprise-projects.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-repos",
+            "directory": "github-enterprise-repos",
+            "target": "git@github.com:php-api-clients\/github-enterprise-repos.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-reactions",
+            "directory": "github-enterprise-reactions",
+            "target": "git@github.com:php-api-clients\/github-enterprise-reactions.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-rate-limit",
+            "directory": "github-enterprise-rate-limit",
+            "target": "git@github.com:php-api-clients\/github-enterprise-rate-limit.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-checks",
+            "directory": "github-enterprise-checks",
+            "target": "git@github.com:php-api-clients\/github-enterprise-checks.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-dependency-graph",
+            "directory": "github-enterprise-dependency-graph",
+            "target": "git@github.com:php-api-clients\/github-enterprise-dependency-graph.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-git",
+            "directory": "github-enterprise-git",
+            "target": "git@github.com:php-api-clients\/github-enterprise-git.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-pulls",
+            "directory": "github-enterprise-pulls",
+            "target": "git@github.com:php-api-clients\/github-enterprise-pulls.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-search",
+            "directory": "github-enterprise-search",
+            "target": "git@github.com:php-api-clients\/github-enterprise-search.git",
+            "target-branch": "v0.2.3.6.x"
+        },
+        {
+            "name": "github-enterprise-users",
+            "directory": "github-enterprise-users",
+            "target": "git@github.com:php-api-clients\/github-enterprise-users.git",
+            "target-branch": "v0.2.3.6.x"
+        }
+    ]
+}
